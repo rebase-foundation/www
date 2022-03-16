@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#__next {
+  font: 16px/1.6 "Helvetica";
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+article p {
+  @apply mb-2;
+}
+
+article a:not(.clear) {
+  @apply text-blue-500 underline;
+}
+
+article h1 {
+  font-size: 2.44em;
+  line-height: 1.33em;
+  padding-top: 0.333em;
+  margin-bottom: 0.333em;
+  @apply text-xl font-bold;
+}
+
+article h2 {
+  font-size: 1.94em;
+  line-height: 1.68em;
+  padding-top: 0.484em;
+  margin-bottom: 0.355em;
+  @apply text-lg font-bold;
+}
+
+article h3 {
+  font-size: 1.56em;
+  line-height: 1.04em;
+  padding-top: 0.2em;
+  margin-bottom: 0.84em;
+  @apply text-base font-bold;
+}
+
+article h4 {
+  font-size: 1.25em;
+  line-height: 1.3em;
+  padding-top: 0.3em;
+  margin-bottom: 1em;
+  @apply text-sm;
+}
+
+article p,
+article pre {
+  font-size: 1em;
+  line-height: 1.63em;
+  padding-top: 0.5em;
+  margin-bottom: 1.13em;
+}
+
+pre {
+  overflow: scroll;
+}
+
+.pattern {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ececec' fill-opacity='0.53' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
