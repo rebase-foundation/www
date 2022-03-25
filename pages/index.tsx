@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           it's own GraphQL.
         </li>
         <li>
-          <a className="underline" href="https://www.strangemood.org/">
+          <a className="underline" href="https://www.precrypt.org/">
             precrypt.org
           </a>{" "}
           - store encrypted files on IPFS that can be decrypted by folks who
